@@ -1,0 +1,31 @@
+.border-radius-1 {
+  border-radius: 4px;
+}
+
+.border-radius-2 {
+  border-radius: 8px;
+}
+
+.border-radius-top-1{
+  border-radius: 4px 4px 0 0 ;
+}
+
+.border-radius-bottom-1{
+  border-radius: 0 0 4px 4px;
+}
+
+.border-radius-filler {
+  border-radius: 16px 50px 50px 16px;
+}
+
+.border-radius-pill {
+  border-radius: 25px 25px 25px 25px;
+}
+
+.border-radius-pill-right {
+  border-radius: 4px 50px 50px 4px;
+}
+
+.border-radius-pill-left {
+  border-radius: 50px 4px 4px 50px;
+}

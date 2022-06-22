@@ -1,0 +1,71 @@
+* {
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+
+ul, li {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+h1, h2, h3, h4, h5, h6, p, span {
+  margin-bottom: 0;
+}
+
+.pos-re {
+  position: relative;
+}
+
+.pos-ab {
+  position: absolute;
+}
+
+input[type="radio"] {
+  background-color: $gray-opa;
+  border-color: $light;
+}
+
+input[type="radio"]:checked {
+  background-color: $info;
+  border-color: $primary;
+  position: relative;
+  &:after {
+    content: "";
+    background-color:$primary;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: calc(50% - 5px);
+    left: calc(50% - 5px);
+    border-radius: 50%;
+  }
+  ~ label {
+    color: $primary;
+  }
+}
+
+input[type="text"], input[type="time"], input[type="password"] {
+  background: $gray-opa;
+  border: $light-grey 1px solid;
+  border-radius: 0 0 0 0;
+  padding: 4px 16px;
+}
+
+input[type="text"]:focus, input[type="time"]:focus , input[type="password"]:focus{
+  background: $gray-opa;
+  border: $light 1px solid;
+}
+
+label {
+  font-size: 14px;
+}

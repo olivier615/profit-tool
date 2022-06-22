@@ -1,0 +1,44 @@
+body {
+  background: linear-gradient(90deg, #2B5775 0%, #4E4376 100%);
+}
+
+.nav-bg-dark-blue {
+  background: linear-gradient(180deg, #142E4C 0%, #304F6D 100%);
+}
+
+.bg-blue-pink {
+  background: linear-gradient(90deg, #A6BFFD 0%, #F58084 100%);
+}
+
+.bg-light-green {
+  background: linear-gradient(90deg, #5AEAC3 0%, #1BD2ED 100%);
+}
+
+.bg-light-blue {
+  background: linear-gradient(90deg, #FEF1EB 0%, #ADE0F9 100%);
+}
+
+.bg-bright-purple {
+  background: linear-gradient(180deg, #385AEF 0%, #582BD8 100%);
+}
+
+.bg-blue-light-blue {
+  background: linear-gradient(90deg, #5EA0FF 0%, #B8DCFF 50%, #5EA0FF 100%);
+}
+
+.bg-pink-light {
+  background: linear-gradient(90deg, #F8999D 0%, #F6D0C3 100%);
+}
+
+.bg-bright-red {
+  background: linear-gradient(180deg, #FF1361 0%, #491079 100%);
+  border: none;
+}
+
+.card-shadow {
+  box-shadow: 3px 3px 2px rgba(211, 250, 243, 0.1);
+}
+
+.bg-gray-opa70 {
+  background-color: $gray-opa;
+}
